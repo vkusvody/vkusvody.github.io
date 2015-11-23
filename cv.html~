@@ -1,0 +1,11 @@
+<!doctype html>
+<link type="text/css" rel="stylesheet" href="style.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<head>
+  <meta charset="utf-8"/>
+  <title>vkusvody:cv</title>
+  </head>
+<body>
+  <div><p>Patience, Ma'am.</p></div>
+  </body>

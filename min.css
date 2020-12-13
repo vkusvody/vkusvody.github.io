@@ -1,0 +1,10 @@
+body {
+    background-color:#F9DF85;
+    opacity: 0.9;
+}
+
+#enter {
+    font-size: 22px;
+    font-family: Georgia, Monaco, monospace;
+    text-align:right;
+}

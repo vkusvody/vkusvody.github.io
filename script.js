@@ -1,6 +1,6 @@
-$(document).ready(function() {
-//test    $('div').css('border', '3px solid red');
-});
+/*$(document).ready(function() {
+    $('div').css('border', '3px solid red');
+});*/
 /*      $('td').hover(function() {
 	/*$(this).addClass('highlight');
 	ja poka ne soobrazhu, kak posvetit' ego -- pustj polzaet*/

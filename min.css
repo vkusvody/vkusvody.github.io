@@ -6,5 +6,11 @@ body {
 #enter {
     font-size: 22px;
     font-family: Georgia, Monaco, monospace;
+}
+
+.twoThirds {
     text-align:right;
+    position: absolute;
+    top: 33%;
+    right: 10%;
 }

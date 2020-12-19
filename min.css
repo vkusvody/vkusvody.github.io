@@ -14,3 +14,19 @@ body {
     top: 33%;
     right: 10%;
 }
+
+#secNav {
+    cursor: pointer;
+    font-size:20px;
+    font-family: Georgia, Monaco, monospace;
+}
+
+#secNav:hover li::after {
+    content: 'YES!';
+    list-style-type: 'square';
+    text-color: blue;
+}
+
+.myClass:hover li::after {
+    text-color: red;
+}

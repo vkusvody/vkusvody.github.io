@@ -6,11 +6,15 @@
     <meta charset="utf-8"/>
     <title>vanya kapitonov</title>
     <link rel="canonical" href="http://vkusvody.github.io/start/"/>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
   </head>
   <body>
     <div class="twoThirds">
       <p id="enter"> vanya kapitonov</p>
-      <p> about</p>
+      <p> <button>about</button> </p>
+<div class="togo">
+some text to go
+</div>
       <nav>
 	<ul id="secNav">
 	  <li class="myclass">reseach</li>
@@ -19,6 +23,11 @@
 	</ul>
       </nav>
     </div>
+<script>
+$( "button" ).click(function() {
+$( "div.togo" ).replaceWith("gone!")
+});
+</script>
   </body>
 </html>
 

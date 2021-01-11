@@ -9,8 +9,8 @@
   </head>
   <body>
     <div class="twoThirds">
-      <p id="enter"> say friend and enter</p>
-      <p> where will it be?</p>
+      <p id="enter"> vanya kapitonov</p>
+      <p> about</p>
       <nav>
 	<ul id="secNav">
 	  <li class="myclass">reseach</li>
@@ -25,4 +25,21 @@
 <!-- some content that will then be placed properly
      about: I am Vanya Kapitonov and I do linguistics. This is my personal page.
      research: I am interested in morphosyntax and in compositional semantics. In morphosyntax, my primary fascination is with how the universally available grammatical categories and meanings are drawn upon by different languages, resulting in such diversity of surface structures.
+
+#secNav {
+    cursor: pointer;
+    font-size:20px;
+    font-family: Georgia, Monaco, monospace;
+}
+
+#secNav:hover li::after {
+    content: 'YES!';
+    list-style-type: 'square';
+    text-color: blue;
+}
+
+.myClass:hover li::after {
+    text-color: red;
+}
+
 -->

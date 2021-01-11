@@ -1,10 +1,16 @@
 body {
     background-color:#F9DF85;
     opacity: 0.9;
+    color: #222;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
 }
 
 #enter {
-    font-size: 22px;
+    font-size: 26px;
     font-family: Georgia, Monaco, monospace;
 }
 
@@ -15,18 +21,18 @@ body {
     right: 10%;
 }
 
-#secNav {
-    cursor: pointer;
-    font-size:20px;
-    font-family: Georgia, Monaco, monospace;
+#secNav li {
+    list-style: none;
+    font-size: 18px;
 }
 
-#secNav:hover li::after {
-    content: 'YES!';
-    list-style-type: 'square';
-    text-color: blue;
+#secNav li:after {
+    content: "+";
+    width: 15px;
+    padding: 10px;
+    font-family: monospace;
 }
 
-.myClass:hover li::after {
-    text-color: red;
+#secNav li:hover:after {
+    content: "\00D7";
 }
